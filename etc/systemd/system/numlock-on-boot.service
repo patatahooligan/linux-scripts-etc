@@ -1,0 +1,11 @@
+[Unit]
+Description=Activate numlock on system boot
+
+[Service]
+ExecStart=/usr/local/bin/numlock
+StandardInput=tty
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
