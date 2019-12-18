@@ -99,7 +99,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
-  mkdir $ZSH_CACHE_DIR
+  mkdir -p $ZSH_CACHE_DIR
 fi
 
 source $ZSH/oh-my-zsh.sh
