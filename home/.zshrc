@@ -108,3 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # Personal settings unrelated to zsh
 export VISUAL=nano
 export EDITOR=nano
+
+# fzf
+. /usr/share/fzf/key-bindings.zsh
+. /usr/share/fzf/completion.zsh
