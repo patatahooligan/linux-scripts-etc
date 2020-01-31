@@ -69,7 +69,13 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions)
+
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+export ZSH_AUTOSUGGEST_COMPLETION_IGNORE=\
+'pacman -S*|sudo pacman*|'\
+'yay -S*'\
+'man*'
 
 # User configuration
 
