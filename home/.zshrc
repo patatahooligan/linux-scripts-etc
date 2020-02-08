@@ -24,7 +24,9 @@ export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export ZSH_AUTOSUGGEST_COMPLETION_IGNORE=\
 'pacman -S*|sudo pacman*|'\
 'yay -S*|'\
-'man*'
+'man*|'\
+'systemctl*|'\
+'journalctl*'
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
