@@ -1,0 +1,26 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 20,
+    "editor.fontFamily": "'Fira Code','Noto Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Monokai",
+    "editor.renderWhitespace": "boundary",
+    "sshfs.configs": [
+        {
+            "host": "192.168.1.8",
+            "name": "tx2",
+            "password": true,
+            "putty": true,
+            "username": true
+        }
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.snippetSuggestions": "none",
+    "terminal.integrated.inheritEnv": false,
+    "python.condaPath": "/home/filon/anaconda3/bin/conda",
+    "editor.rulers": [
+        72,
+        80
+    ],
+    "extensions.ignoreRecommendations": false
+}
