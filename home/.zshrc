@@ -43,3 +43,7 @@ export EDITOR=nano
 # fzf
 . /usr/share/fzf/key-bindings.zsh
 . /usr/share/fzf/completion.zsh
+
+# Enter gpg passphrase through terminal shell
+# This is required for signing commits through remote sessions
+export GPG_TTY=$(tty)
