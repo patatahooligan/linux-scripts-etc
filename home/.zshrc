@@ -20,13 +20,13 @@ plugins=(git zsh-autosuggestions)
 
 # Autosuggestions options
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
-export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-export ZSH_AUTOSUGGEST_COMPLETION_IGNORE=\
-'pacman -S*|sudo pacman*|'\
-'yay -S*|'\
-'man*|'\
-'systemctl*|'\
-'journalctl*'
+export ZSH_AUTOSUGGEST_STRATEGY=(history)
+#export ZSH_AUTOSUGGEST_COMPLETION_IGNORE=\
+#'pacman -S*|sudo pacman*|'\
+#'yay -S*|'\
+#'man*|'\
+#'systemctl*|'\
+#'journalctl*'
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
