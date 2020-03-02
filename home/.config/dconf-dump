@@ -1,79 +1,118 @@
 [com/solus-project/budgie-panel]
+builtin-theme=true
+dark-theme=true
 migration-level=1
 panels=['ea67709c-5c80-11ea-8f6a-b42e99c18713']
+
+[com/solus-project/budgie-panel/applets/{02711612-5c8a-11ea-b36b-b42e99c18713}]
+alignment='start'
+name='Spacer'
+position=2
+
+[com/solus-project/budgie-panel/applets/{0f2cf312-5c8a-11ea-b36b-b42e99c18713}]
+alignment='start'
+name='Spacer'
+position=0
+
+[com/solus-project/budgie-panel/applets/{637bb1ee-5c88-11ea-b36b-b42e99c18713}]
+alignment='end'
+name='Spacer'
+position=1
+
+[com/solus-project/budgie-panel/applets/{b2af8b00-5c88-11ea-b36b-b42e99c18713}]
+alignment='start'
+name='Workspace Switcher'
+position=3
 
 [com/solus-project/budgie-panel/applets/{ea67c466-5c80-11ea-8f6a-b42e99c18713}]
 alignment='start'
 name='Budgie Menu'
-position=0
-
-[com/solus-project/budgie-panel/applets/{ea6fcd0a-5c80-11ea-8f6a-b42e99c18713}]
-alignment='start'
-name='Spacer'
 position=1
 
 [com/solus-project/budgie-panel/applets/{ea7029f8-5c80-11ea-8f6a-b42e99c18713}]
-alignment='start'
+alignment='center'
 name='Icon Task List'
-position=2
-
-[com/solus-project/budgie-panel/applets/{ea860ec6-5c80-11ea-8f6a-b42e99c18713}]
-alignment='end'
-name='Spacer'
 position=0
 
 [com/solus-project/budgie-panel/applets/{ea8617fe-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='System Tray'
-position=1
+position=4
 
 [com/solus-project/budgie-panel/applets/{ea866eca-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='Notifications'
-position=2
+position=5
 
 [com/solus-project/budgie-panel/applets/{ea8ad6d6-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='Status Indicator'
-position=3
+position=6
 
 [com/solus-project/budgie-panel/applets/{ea8cbe1a-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='User Indicator'
-position=4
+position=7
 
 [com/solus-project/budgie-panel/applets/{ea8d4eb6-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='Spacer'
-position=5
+position=3
 
 [com/solus-project/budgie-panel/applets/{ea8d5c3a-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='Separator'
-position=6
+position=2
 
 [com/solus-project/budgie-panel/applets/{ea8d9772-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='Clock'
-position=7
+position=0
 
 [com/solus-project/budgie-panel/applets/{ea8e8df8-5c80-11ea-8f6a-b42e99c18713}]
 alignment='end'
 name='Raven Trigger'
 position=8
 
+[com/solus-project/budgie-panel/instance/budgie-menu/{ea67c466-5c80-11ea-8f6a-b42e99c18713}]
+enable-menu-label=false
+menu-compact=true
+menu-headers=true
+
+[com/solus-project/budgie-panel/instance/icon-tasklist/{ea7029f8-5c80-11ea-8f6a-b42e99c18713}]
+grouping=true
+only-pinned=false
+restrict-to-workspace=true
+
+[com/solus-project/budgie-panel/instance/spacer/{02711612-5c8a-11ea-b36b-b42e99c18713}]
+size=5
+
+[com/solus-project/budgie-panel/instance/spacer/{637bb1ee-5c88-11ea-b36b-b42e99c18713}]
+size=3
+
+[com/solus-project/budgie-panel/instance/spacer/{ea8d4eb6-5c80-11ea-8f6a-b42e99c18713}]
+size=3
+
+[com/solus-project/budgie-panel/instance/workspaces/{b2af8b00-5c88-11ea-b36b-b42e99c18713}]
+addbutton-visibility='hover'
+
 [com/solus-project/budgie-panel/panels/{ea67709c-5c80-11ea-8f6a-b42e99c18713}]
-applets=['ea7029f8-5c80-11ea-8f6a-b42e99c18713', 'ea6fcd0a-5c80-11ea-8f6a-b42e99c18713', 'ea8ad6d6-5c80-11ea-8f6a-b42e99c18713', 'ea8d4eb6-5c80-11ea-8f6a-b42e99c18713', 'ea866eca-5c80-11ea-8f6a-b42e99c18713', 'ea67c466-5c80-11ea-8f6a-b42e99c18713', 'ea8e8df8-5c80-11ea-8f6a-b42e99c18713', 'ea8cbe1a-5c80-11ea-8f6a-b42e99c18713', 'ea8d9772-5c80-11ea-8f6a-b42e99c18713', 'ea860ec6-5c80-11ea-8f6a-b42e99c18713', 'ea8617fe-5c80-11ea-8f6a-b42e99c18713', 'ea8d5c3a-5c80-11ea-8f6a-b42e99c18713']
-location='top'
-size=39
-transparency='none'
+applets=['02711612-5c8a-11ea-b36b-b42e99c18713', '0f2cf312-5c8a-11ea-b36b-b42e99c18713', 'ea7029f8-5c80-11ea-8f6a-b42e99c18713', 'ea8ad6d6-5c80-11ea-8f6a-b42e99c18713', 'ea8d4eb6-5c80-11ea-8f6a-b42e99c18713', '637bb1ee-5c88-11ea-b36b-b42e99c18713', 'ea866eca-5c80-11ea-8f6a-b42e99c18713', 'ea8e8df8-5c80-11ea-8f6a-b42e99c18713', 'ea67c466-5c80-11ea-8f6a-b42e99c18713', 'ea8cbe1a-5c80-11ea-8f6a-b42e99c18713', 'ea8d9772-5c80-11ea-8f6a-b42e99c18713', 'ea8d5c3a-5c80-11ea-8f6a-b42e99c18713', 'ea8617fe-5c80-11ea-8f6a-b42e99c18713', 'b2af8b00-5c88-11ea-b36b-b42e99c18713']
+dock-mode=false
+location='left'
+size=50
+theme-regions=true
+transparency='dynamic'
 
 [com/solus-project/budgie-wm]
 button-layout='appmenu:minimize,maximize,close'
 center-windows=false
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='keyboard'
+
+[org/gnome/desktop/a11y]
+always-show-universal-access-status=false
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -81,6 +120,9 @@ sources=[('xkb', 'us'), ('xkb', 'gr')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
+clock-format='24h'
+clock-show-date=true
+clock-show-seconds=false
 cursor-theme='breeze_cursors'
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita-dark'
@@ -88,6 +130,16 @@ icon-theme='breeze-dark'
 
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
+
+[org/gnome/desktop/privacy]
+disable-camera=true
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/sound]
+event-sounds=true
+theme-name='__custom'
 
 [org/gnome/desktop/wm/keybindings]
 switch-applications=['']
@@ -97,6 +149,36 @@ switch-group-backward=['']
 
 [org/gnome/desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
+num-workspaces=2
+
+[org/gnome/nm-applet]
+disable-connected-notifications=false
+disable-disconnected-notifications=false
+disable-vpn-notifications=false
+suppress-wireless-networks-available=false
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>t'
+command='yakuake'
+name='yakuake'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Primary><Alt>t'
+command='konsole'
+name='konsole'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>b'
+command='firefox'
+name='firefox'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Super>f'
+command='thunar'
+name='thunar'
 
 [org/gnome/settings-daemon/plugins/xsettings]
 antialiasing='grayscale'
@@ -118,3 +200,6 @@ use-theme-colors=false
 [org/gtk/settings/color-chooser]
 custom-colors=[(0.66666666666666663, 0.66666666666666663, 0.66666666666666663, 1.0)]
 selected-color=(true, 1.0, 1.0, 1.0, 1.0)
+
+[org/ubuntubudgie/plugins/budgie-wsoverview]
+ws-overview-index=3
