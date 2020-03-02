@@ -1,0 +1,16 @@
+[Animation]
+Frames=10
+
+[Desktop Entry]
+DefaultProfile=ph.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=ph.profile
+
+[Window]
+Height=100
+ShowOnAllDesktops=false
+Width=100
