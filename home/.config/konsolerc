@@ -1,0 +1,15 @@
+[Desktop Entry]
+DefaultProfile=ph.profile
+
+[Favorite Profiles]
+Favorites=ph.profile
+
+[KonsoleWindow]
+ShowWindowTitleOnTitleBar=true
+
+[MainWindow]
+Height 1080=1009
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPZAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1920
+Window-Maximized 1080x1920=true
