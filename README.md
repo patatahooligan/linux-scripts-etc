@@ -14,5 +14,16 @@ allow for mass copying. For example recursively copying etc into /etc will put
 every file in its appropriate place for the current Arch linux packages. Be
 careful of overwriting stuff you care about when doing this.
 
+To ease tracking and committing of files, you can symlink to the contents of the
+repo. Before doing so, consider the security implications of
+
+  * having your configuration files linked to a repo which will sync with a remote
+  * having system configuration files symlinked to non-root owned files
+
+The latter point is quite important and some programs might even check file
+permissions and refuse to run if they are found to be unsafe. Having a root-owned
+copy of the repo solves this. Perhaps the repo should be split into user configs
+and system configs to make handling this more natural.
+
 When necessary, specific instructions for files will be added to separate readme
 files to avoid cluttering a single one with too much info.
