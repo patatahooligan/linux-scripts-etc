@@ -536,9 +536,12 @@ clock-format='24h'
 clock-show-date=true
 clock-show-seconds=false
 cursor-theme='breeze_cursors'
+document-font-name='Lucida Sans Unicode 11'
+font-name='Lucida Sans Unicode 11'
 gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita-dark'
 icon-theme='breeze-dark'
+monospace-font-name='Source Code Pro 10'
 
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
@@ -562,6 +565,7 @@ switch-group-backward=['']
 [org/gnome/desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
 num-workspaces=2
+titlebar-font='Lucida Sans Unicode 11'
 
 [org/gnome/nm-applet]
 disable-connected-notifications=false
