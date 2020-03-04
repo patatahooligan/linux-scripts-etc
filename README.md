@@ -1,5 +1,11 @@
 # linux-scripts-etc
 
+> *Note:* this repo will be split into smaller coherent repos such as linux-home
+as that is more practical than an all-in-one approach. It will not be updated any
+further and I will eventually delete it. See
+>
+> https://github.com/patatahooligan/linux-home
+
 This is just a repository of some scripts and configuration files I expect to
 reuse across linux installations. I will slowly build it up every time I
 install a new system.
