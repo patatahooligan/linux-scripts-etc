@@ -5,6 +5,7 @@ as that is more practical than an all-in-one approach. It will not be updated an
 further and I will eventually delete it. See
 >
 > https://github.com/patatahooligan/linux-home
+>
 > https://github.com/patatahooligan/linux-system-confs
 
 This is just a repository of some scripts and configuration files I expect to
